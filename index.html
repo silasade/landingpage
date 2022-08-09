@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./loop.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        screens:{
+            sm:'480px',
+            md:'960px',
+            lg:'1440px',
+           
+        },
+        extend: {
+          colors: {
+            White: 'hsl(0, 0%, 100%)',
+            Black: 'hsl(0, 0%, 0%)',
+            DarkGray: 'hsl(0, 0%, 55%)',
+            VeryDarkGray: 'hsl(0, 0%, 41%)'
+
+          }
+        }
+      }
+    }
+  </script>
+    <title>Document</title>
+</head>
+<body>
+   
+        <nav class="relative container-lg  p-6">
+          <div  class="flex items-center justify-between mt-8">
+          <div class="flex flex-row them">
+            <div>
+              <img src="./loopstudios-landing-page-main/images/logo.svg" class="ml-40 lg:ml-20 logo" alt="">
+            </div>
+             <div>
+              <img id="menu" class="visible absolute ml-40 md:invisible ml-60 cursor-pointer mr-40" src="./loopstudios-landing-page-main/images/icon-hamburger.svg" alt="">
+
+             </div>
+          </div>  
+            
+            <div class="hidden md:flex space-x-14 text-white mr-20" id="list">
+              <div class="flex inline mt-5 md:hidden justify-between">
+                  <div>
+                    <img class=" ml-10 pl-5 mt-5" width="200px" src="./loopstudios-landing-page-main/images/logo.svg" class="ml-40 lg:ml-20" alt="">        
+                  </div>
+                  <div>
+                    <img class=" mt-5 mr-5 cursor-pointer" id="close" width="30px" src="./loopstudios-landing-page-main/images/icon-close.svg" alt="">
+                  </div>
+              </div>
+                    
+              
+              <a href="#" class="mt-20 md:mt-0">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Events</a>
+                <a href="#">Products</a>
+                <a href="#">Support</a>
+                
+            </div>
+          </div>
+
+          <div class="border  border-2 width1 md:w-96 mt-20 md:ml-20 mb-20">
+            <h1 class="md:text-5xl text-left p-4 text-white">
+              IMMERSIVE EXPERIENCES  THAT DELIVER
+            </h1>
+          </div>
+        </nav>
+        <section >
+            <div class="container flex-column flex xl:flex-row m-20 main">
+              <div class="">
+                  <img  style="   z-index: -3;" class="image1 absolute" src="./loopstudios-landing-page-main/images/desktop/image-interactive.jpg" alt="">
+              </div>
+              <div class="over md:mt-40  p-20 second">
+                  <h1 class="  md:w-96 md:text-left md:text-5xl lead">
+                    THE LEADER IN INTERACTIVE VR
+                  </h1>
+                  <br>
+                  <br>
+                  
+                  <h5  class="text-DarkGray width2">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed business through digital experiences that bind to their brand.</h5>
+              </div>
+            </div>
+        </section>
+        <section >
+          <div class="conatiner-lg images">
+            <div class="flex justify-between flex-row p-6">
+              <div class="create">
+                <h1 class="text-5xl text-center">OUR CREATIONS</h1>
+              </div>
+            
+         <div>
+          <button class="invisible text-5xl text-right md:border md:border-black md:border-3 md:pl-6 md:pr-6 md:text-center md:visible">SEE ALL</button>
+
+         </div>
+        </div>
+          <div class="grid grid-cols-4 gap-4 " style="width: 100%;">
+            <div >
+              <img class="image" src="./loopstudios-landing-page-main/images/desktop/image-deep-earth.jpg" alt="">
+            </div>
+            <div>
+              <img class="image"  src="./loopstudios-landing-page-main/images/desktop/image-night-arcade.jpg" alt="">
+            </div>
+            <div>
+              <img class="image" src="./loopstudios-landing-page-main/images/desktop/image-soccer-team.jpg" alt="">
+            </div>
+            <div>
+              <img class="image"  src="./loopstudios-landing-page-main/images/desktop/image-grid.jpg" alt="">
+            </div>
+            <div>
+              <img class="image" src="./loopstudios-landing-page-main/images/desktop/image-from-above.jpg" alt="">
+            </div>
+            <div>
+              <img class="image" src="./loopstudios-landing-page-main/images/desktop/image-pocket-borealis.jpg" alt="">
+            </div>
+            <div>
+              <img class="image" src="./loopstudios-landing-page-main/images/desktop/image-curiosity.jpg" alt="">
+            </div>
+            <div>
+              <img class="image" src="./loopstudios-landing-page-main/images/desktop/image-fisheye.jpg" alt="">
+            </div>
+          </div>
+          <br>
+          <br>
+          <div class="text-center md:hidden">
+            <button class="border border-black text-5xl border-4 pl-6 pr-6 text-center">SEE ALL</button>
+          </div>
+         
+        </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="mt-5">
+          <footer class="bg-black container-lg  p-6">
+            <div class="flex flex-col text-center  place-self-center md:flex-row items-center md:justify-between">
+              <div class="flex flex-col">
+                <div>
+                  <img class="md:ml-8" src="./loopstudios-landing-page-main/images/logo.svg" alt="">
+                </div>
+                <br>
+                <div class="flex text-xl flex-col md:flex-row space-x-10 text-white">
+                <a href="#" class="pl-8 md: ml-0">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Events</a>
+                <a href="#">Products</a>
+                <a href="#">Support</a>
+                </div>
+              </div>
+              <div class="flex mt-3 content-center justify center flex-col md:content-end text-white">
+                <div class="flex ml-16 md:ml-0 justify center md:justify-end space-x-6 text-white">
+                  <div>
+                    <img class="under" src="./loopstudios-landing-page-main/images/icon-facebook.svg" alt="">
+                  </div>
+                  <div>
+                    <img class="under" src="./loopstudios-landing-page-main/images/icon-twitter.svg" alt="">
+                  </div>
+                  <div>
+                    <img class="under" src="./loopstudios-landing-page-main/images/icon-pinterest.svg" alt="">
+                  </div>
+                  <div>
+                    <img class="under" src="./loopstudios-landing-page-main/images/icon-instagram.svg" alt="">
+                  </div>
+                </div>
+                <br>
+              <div>
+                  <h5 class="text-DarkGray">&COPY;2021 Loopstudios. All rights reserved.</h5>
+                </div>
+        </div>
+            </div>
+              
+              
+          </footer>
+        </section>
+      <script src="./loop.js"></script>
+</body>
+</html>
