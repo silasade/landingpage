@@ -450,6 +450,21 @@ button:hover{
         margin-left: -35%;
     }
 }
+@media (max-width:482px) and (max-height:1640px) {
+    .images{
+        margin-top: 175%;
+
+    }
+    .image1{
+        height: 40%;
+    }
+    .second{
+        margin-top: 140%;
+    }
+    footer{
+        margin-top: 310%;
+    }
+}
 @media(max-width:472px){
     .lead{
         width:170%;
@@ -503,6 +518,17 @@ button:hover{
         margin-top: 265%;
     }
 }
+@media(max-width:450px) and (max-height:1640px){
+    #list{
+        padding-top: 50%;
+    }
+    .images{
+        margin-top: 220%;
+    }
+    footer{
+        margin-top: 365%;
+    }
+}
 @media(max-width:423px){
     .width1{
         font-size: 40px;
@@ -523,6 +549,17 @@ footer{
 .image1{
     width: 95%;
 }
+}
+@media(max-width:423px) and (max-height:1640px){
+    .images{
+        margin-top: 220%;
+    }
+    .image1{
+       margin-left: -17%;
+    }
+    footer{
+        margin-top: 365%;
+    }
 }
 @media(max-width:400px){
 .images{
@@ -547,6 +584,23 @@ main{
     margin-left: -17%;
 }
 }
+@media(max-width:400px) and (max-height:1640px){
+    .images{
+        margin-top: 230%;
+    }
+    .image1{
+       margin-left: -18%;
+    }
+    footer{
+        margin-top: 365%;
+    }
+    .second{
+        margin-top:160%;
+    }
+    #list{
+        
+    }
+}
 @media(max-width:382px){
     .them{
         margin-left: -50%;
@@ -566,6 +620,24 @@ main{
     }
     footer{
         margin-top: 285%;
+    }
+}
+@media(max-width:382px) and (max-height:1640px){
+    .images{
+        margin-top: 240%;
+    }
+    .image1{
+       margin-left: -18.5%;
+    }
+    footer{
+        margin-top: 380%;
+    }
+    .second{
+        margin-top:160%;
+    }
+    #list{
+        
+        padding-top: 60%;
     }
 }
 @media(max-width:370px){
@@ -595,6 +667,21 @@ main{
         margin-left: -70%;
     }
 } 
+@media(max-width:370px) and (max-height:1640px){
+    .images{
+        margin-top: 240%;
+    }
+    .image1{
+       margin-left: -18.5%;
+    }
+    footer{
+        margin-top: 380%;
+    }
+    .second{
+        margin-top:160%;
+    }
+    
+}
 @media(max-width:368px){
     .images{
         margin-top: 180%;
@@ -602,6 +689,22 @@ main{
     footer{
         margin-top: 320%;
     }
+}
+@media(max-width:368px) and (max-height:1640px){
+    .images{
+        margin-top: 240%;
+    }
+    .image1{
+       margin-left: -18.5%;
+    }
+    footer{
+        margin-top: 380%;
+    }
+    .second{
+        margin-top:160%;
+    }
+    
+    
 }
 @media(max-width:353px){
     .images{
@@ -619,6 +722,24 @@ main{
         margin-left: -70%;
     }
 }
+@media(max-width:353px) and (max-height:1640px){
+    .images{
+        margin-top: 240%;
+    }
+    .image1{
+       margin-left: -18.5%;
+    }
+    footer{
+        margin-top: 380%;
+    }
+    .second{
+        margin-top:160%;
+    }
+    #list{
+        
+    }
+}
+
 @media(max-width:346px){
     .images{
         margin-top: 180%;
@@ -636,5 +757,22 @@ main{
     }
     .them{
         margin-left: -57%;
+    }
+}
+@media(max-width:346px) and (max-height:1640px){
+    .images{
+        margin-top: 280%;
+    }
+    .image1{
+       margin-left: -18.5%;
+    }
+    footer{
+        margin-top: 430%;
+    }
+    .second{
+        margin-top:190%;
+    }
+    #list{
+        
     }
 }
